@@ -1,4 +1,4 @@
-import grid
+import extra.grid as grid
 
 import random
 
@@ -31,7 +31,7 @@ while True:
     if key == "w" and not grid.get_grid_spot(playerx,playery-1) == "7":
         playery -= 1
 
-    grid.set_bkg_image("background.txt")
+    grid.set_bkg_image("examples/extra/background.txt")
     grid.create_spr(playerx,playery,1,0)
 
     if grid.check_spr_pos(0,2,0):

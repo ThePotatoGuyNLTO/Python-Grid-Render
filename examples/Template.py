@@ -1,6 +1,6 @@
-import grid
+import extra.grid as grid
 
-bkg_image = "background.txt"
+bkg_image = "examples/extra/background.txt"
 grid.set_bkg_image(bkg_image)
 
 running = True
