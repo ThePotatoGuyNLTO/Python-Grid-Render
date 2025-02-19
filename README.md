@@ -1,4 +1,7 @@
 # Python-Grid-Render
+
+![screenshot](https://github.com/ThePotatoGuyNLTO/Python-Grid-Render/blob/main/Screenshot.png?raw=true)
+
 Renders a grid with a bkg and collision system.
 Always add <br>
 ```import (dict).grid as grid```
